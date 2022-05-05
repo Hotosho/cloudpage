@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 и CSS3 сайт</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">
+      <span>MykytaKosmetyk</span>
+    </div>
+    <div id="about">
+      <a href="#" title="Możliwośći" onclick="slowScroll('#main')">Możliwośći</a>
+      <a href="#" onclick="slowScroll('#overview')" title="Zalety">Zalety</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Kontakt">Kontakt</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Odpowiedzi na pytania">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>Kosmetyki na całe życie</h1>
+    <h3>tylko w MykytaKosmetyk</h3>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+      <h2>Nasze usługi pomogą Ci!</h2>
+      <span>Duży wybór wszystkiego, co może Ci się przydać</span>
+    </div>
+    <div class="text">
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos impedit, ut vero commodi voluptate? Ipsam reiciendis, necessitatibus incidunt ipsa quis sapiente excepturi, optio iusto voluptatibus dolorem officia quidem, numquam eaque minus, autem praesentium rem architecto dolores. Ipsa unde id velit optio magni enim! Illum obcaecati, dolorem distinctio nemo, ipsum iure.</span>
+    </div>
+  </div>
+
+  <div id="overview">
+    <h2>Zaleta</h2>
+    <h4>z nami coraz lepiej</h4>
+
+    <div class="img">
+      <img src="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/4-brands/consumer-products-division/nyx/loreal0283768.jpg?rev=94d57b1596bd449c824b94cdb05b8d8f&cx=0&cy=0&cw=518&ch=518&blr=False&hash=E115B2D770C6EAE57796F133E5F0A7D2" alt="">
+      <span>MykytaKosmetyk to marka kosmetyków numer jeden na świecie, dostępna w ponad 120 krajach.</span>
+    </div>
+    <div class="img">
+      <img src="https://www.loreal.com/-/media/project/loreal/brand-sites/corp/master/lcorp/4-brands/consumer-products-division/nyx/loreal0283767.jpg?rev=fa519f24f6b34d6ab2d06cfffbe10fae&cx=0&cy=0&cw=518&ch=518&blr=False&hash=27079CB362196B389191DF3D6E7C829A" alt="">
+      <span>MykytaKosmetyk to najlepsze luksusowe piękno dostępne na wszystkich kontynentach.</span>
+    </div>
+  </div>
+
+  <div id="contacts">
+    <center><h5>Informacje zwrotne</h5></center>
+    <form id="form_input">
+      <label for="name">Imie<span>*</span></label><br>
+      <input type="text" placeholder="Wpisz imie" name="name" id="name"><br>
+      <label for="email">Twoja poczta <span>*</span></label><br>
+			<input type="email" placeholder="Wpisz email" name="email" id="email"><br>
+			<label for="message">Wiadomość <span>*</span></label><br>
+			<textarea placeholder="Wpisz wiadomość" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Wysłać</div>
+    </form>
+  </div>
+
+  <div id="faq">
+    <div>
+      <span class="title">Opłata</span><br>
+      <span class="heading">Jak będzie przebiegała płatność?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Jak będzie przebiegała płatność?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Jak będzie przebiegała płatność?</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Informacja</span><br>
+      <span class="heading">Co wchodzi w zakres usług</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Co wchodzi w zakres usług</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Co wchodzi w zakres usług</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">Gwarancja</span><br>
+      <span class="heading">Jakie są gwarancje</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Jakie są gwarancje</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <span class="heading">Jakie są gwarancje</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+</body>
+</html>
